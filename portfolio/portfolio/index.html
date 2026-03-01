@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanka Naga Sai Harshini Portfolio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+
+
+<style>
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+</style>
+</head>
+
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white">
+
+  <!-- Header/Navbar -->
+  <header class="py-4 px-8 flex justify-between items-center" style="background-color: #8b90c9;">
+    <h1 class="text-3xl font-bold text-white">Sanka Naga Sai Harshini</h1>
+    <nav>
+      <ul class="flex space-x-6 text-lg font-medium items-center">
+        <li><a class="hover:text-gray-200 text-white" href="#Home">Home</a></li>
+        <li><a class="hover:text-gray-200 text-white" href="#about-me">About</a></li>
+        <li><a class="hover:text-gray-200 text-white" href="#education">Education</a></li>
+        <li><a class="hover:text-gray-200 text-white" href="#skills">Skills</a></li>
+        <li><a class="hover:text-gray-200 text-white" href="#Projects">Projects</a></li>
+        <li><a class="hover:text-gray-200 text-white" href="#Achievements">Achievements</a></li>
+        <li><a class="hover:text-gray-200 text-white" href="#Contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="text-xl p-2 rounded cursor-pointer text-white hover:text-yellow-300">🌗</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="p-8">
+
+
+
+
+
+
+
+
+
+
+
+<!-- Home -->
+<section id="Home" class="flex flex-col justify-center items-center text-center min-h-screen bg-white dark:bg-gray-900 px-4">
+  <img src="assets/images/passport_size.jpg" alt="Profile"
+    class="w-72 h-72 rounded-full object-cover border-4 border-gray-300 dark:border-gray-600 -mt-6 mb-6" />
+
+  <h2 class="text-4xl font-bold highlight-text typing-animation" id="typing-line">
+    <span class="text-black dark:text-white">Hi! I am </span>
+    <span class="text-blue-600 dark:text-blue-400">Perumalla Naga Vidya Amrutha</span>
+    <span class="text-black dark:text-white"> ! </span>
+  </h2>
+
+  <h3 class="text-2xl text-gray-600 dark:text-gray-300 mt-4">
+    Aspiring Data Scientist | Computer Science | Software Developer
+  </h3>
+
+<!-- Social Icons -->
+<div class="flex space-x-6 mt-6 items-center">
+  <!-- LinkedIn -->
+  <a href="www.linkedin.com/in/sanka-harshini/" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin text-3xl text-blue-600 dark:text-blue-400 hover:text-blue-800 transition-transform hover:scale-110"></i>
+  </a>
+
+
+  <!-- CodeChef -->
+  <a href="https://www.codechef.com/users/harshini_32" target="_blank" title="CodeChef">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/codechef.svg"
+         alt="CodeChef"
+         class="w-8 h-8 hover:scale-110 transition-transform duration-300 dark:invert" />
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/harshini43/harshini43" target="_blank" title="GitHub">
+    <i class="fab fa-github text-3xl text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-transform hover:scale-110"></i>
+  </a>
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- About Me -->
+    <section id="about-me" class="bg-white dark:bg-gray-800 p-8 mb-8 flex justify-center">
+      <div class="border-4 border-blue-500 rounded-xl p-8 w-full max-w-2xl aspect-square shadow-lg 
+                  dark:border-blue-400 transition duration-300 ease-in-out 
+                  hover:shadow-[0_0_20px_4px_rgba(59,130,246,0.6)] dark:hover:shadow-[0_0_20px_4px_rgba(96,165,250,0.6)]
+                  flex flex-col justify-evenly">
+        <h3 class="text-5xl font-bold text-center text-blue-600 dark:text-blue-300">About Me</h3>
+        <div class="flex flex-col gap-4 text-lg text-gray-700 dark:text-gray-300 text-justify">
+          <p>
+            I am Sanka Naga Sai Harshini, a passionate BSc student in Computer Science at BV Raju College.
+          </p>
+          <p>
+            With strong foundations in Python, machine learning, and full-stack development, I build real-world solutions using AI and modern web technologies.
+          </p>
+          <p>
+            I’ve contributed to regional language AI models with SWECHA and IIIT-Hyderabad, and gained national recognition through programs.
+          </p>
+          <p>
+            I bring a unique blend of technical expertise, creativity, and discipline—from coding and AI to rifle shooting and classical dance.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+<section id="education" class="bg-white dark:bg-gray-800 py-12 px-4">
+  <h3 class="text-4xl font-bold text-center text-blue-600 dark:text-blue-300 mb-12">Education</h3>
+
+  <div class="relative max-w-4xl mx-auto">
+    <!-- Center vertical line -->
+    <div class="absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-blue-500"></div>
+
+    <div class="space-y-16 relative z-10">
+      <!-- BSc -->
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <div class="md:w-1/2 md:pr-8">
+          <a href="https://bvricedegree.edu.in/" target="_blank" rel="noopener noreferrer" class="block">
+            <div class="border-4 border-blue-500 rounded-xl p-6 bg-white dark:bg-gray-800 shadow-lg 
+                        hover:shadow-[0_0_20px_4px_rgba(59,130,246,0.6)] 
+                        dark:hover:shadow-[0_0_20px_4px_rgba(96,165,250,0.6)] transition text-left cursor-pointer">
+              <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">BSc in Computer Science</h4>
+              <p class="text-black dark:text-white">BV Raju College</p>
+              <p class="text-sm text-gray-800 dark:text-gray-300">2023 – 2026 | CGPA: 8.09 (Pursuing)</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-6 h-6 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-gray-800 mx-auto"></div>
+        <div class="md:w-1/2"></div>
+      </div>
+
+      <!-- Intermediate -->
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <div class="md:w-1/2"></div>
+        <div class="w-6 h-6 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-gray-800 mx-auto"></div>
+        <div class="md:w-1/2 md:pl-8">
+          <a href="https://tirumalabvrmedu.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <div class="border-4 border-blue-500 rounded-xl p-6 bg-white dark:bg-gray-800 shadow-lg 
+                        hover:shadow-[0_0_20px_4px_rgba(59,130,246,0.6)] 
+                        dark:hover:shadow-[0_0_20px_4px_rgba(96,165,250,0.6)] transition text-left cursor-pointer">
+              <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">Intermediate (MPC)</h4>
+              <p class="text-black dark:text-white">Tirumala Junior College</p>
+              <p class="text-sm text-gray-800 dark:text-gray-300">2021 – 2023 | Percentage: 87.5%</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- 10th -->
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <div class="md:w-1/2 md:pr-8">
+          <a href="https://tirumalaedu.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <div class="border-4 border-blue-500 rounded-xl p-6 bg-white dark:bg-gray-800 shadow-lg 
+                        hover:shadow-[0_0_20px_4px_rgba(59,130,246,0.6)] 
+                        dark:hover:shadow-[0_0_20px_4px_rgba(96,165,250,0.6)] transition text-left cursor-pointer">
+              <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">10th Standard (CBSE)</h4>
+              <p class="text-black dark:text-white">Tirumala school</p>
+              <p class="text-sm text-gray-800 dark:text-gray-300">2020 – 2021 | Percentage: 73.2%</p>
+            </div>
+          </a>
+        </div>
+        <div class="w-6 h-6 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-gray-800 mx-auto"></div>
+        <div class="md:w-1/2"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Add this to your <style> block or inside <head> -->
+<style>
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+</style>
+
+
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="bg-white dark:bg-gray-800 py-12 px-4">
+  <h3 class="text-4xl font-bold text-center text-blue-600 dark:text-blue-300 mb-10">Skills</h3>
+
+  <div class="overflow-hidden w-full">
+    <div class="flex gap-16 animate-marquee w-max items-center">
+
+      <!-- Skill Blocks -->
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+             alt="Python" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Python</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+             alt="C" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">C</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+             alt="Java" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Java</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+             alt="SQL" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">SQL</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+             alt="Git" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Git</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+             alt="VS Code" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">VS Code</span>
+      </div>
+
+      
+       <!-- MATLAB -->
+    <div class="flex flex-col items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+           alt="MATLAB" class="w-24 h-24 object-contain hover:scale-110 transition-transform duration-300" />
+      <span class="mt-3 text-lg font-medium text-gray-800 dark:text-gray-200">MATLAB</span>
+    </div>
+
+    
+   
+  <div class="flex justify-center gap-20 flex-wrap">
+    
+    
+
+
+      <div class="flex flex-col items-center">
+        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+             alt="Firebase" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Firebase</span>
+      </div>
+
+      
+
+      <div class="flex flex-col items-center">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png"
+             alt="Machine Learning" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Machine Learning</span>
+      </div>
+
+      <!-- Duplicated set for infinite scroll -->
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+             alt="Python" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Python</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+             alt="C" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">C</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+             alt="Java" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Java</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+             alt="SQL" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">SQL</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://www.r-project.org/logo/Rlogo.svg"
+             alt="R" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">R</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+             alt="React" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">React</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+             alt="Git" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Git</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+             alt="VS Code" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">VS Code</span>
+      </div>
+
+      
+       <!-- MATLAB -->
+    <div class="flex flex-col items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+           alt="MATLAB" class="w-24 h-24 object-contain hover:scale-110 transition-transform duration-300" />
+      <span class="mt-3 text-lg font-medium text-gray-800 dark:text-gray-200">MATLAB</span>
+    </div>
+
+    
+   
+
+
+
+      <div class="flex flex-col items-center">
+        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+             alt="Firebase" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Firebase</span>
+      </div>
+
+      
+
+      <div class="flex flex-col items-center">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png"
+             alt="Machine Learning" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Machine Learning</span>
+      </div>
+<!-- Duplicated set for infinite scroll -->
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+             alt="Python" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Python</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+             alt="C" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">C</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+             alt="Java" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Java</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+             alt="SQL" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">SQL</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://www.r-project.org/logo/Rlogo.svg"
+             alt="R" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">R</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+             alt="React" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">React</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+             alt="Git" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Git</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+             alt="VS Code" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">VS Code</span>
+      </div>
+
+      
+       <!-- MATLAB -->
+    <div class="flex flex-col items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+           alt="MATLAB" class="w-24 h-24 object-contain hover:scale-110 transition-transform duration-300" />
+      <span class="mt-3 text-lg font-medium text-gray-800 dark:text-gray-200">MATLAB</span>
+    </div>
+
+    
+   
+
+
+
+      <div class="flex flex-col items-center">
+        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+             alt="Firebase" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Firebase</span>
+      </div>
+
+      
+
+      <div class="flex flex-col items-center">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png"
+             alt="Machine Learning" class="w-20 h-20 hover:scale-110 transition-transform" />
+        <span class="mt-2 text-gray-800 dark:text-gray-200">Machine Learning</span>
+      </div>
+      <!-- (Repeat the rest as above if needed) -->
+    </div>
+  </div>
+</section>
+<style>
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    5% {
+      transform: translateX(0%); /* Pause for ~3s */
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Marquee Animation Style -->
+  <style>
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .animate-marquee {
+      animation: marquee 30s linear infinite;
+    }
+  </style>
+</section>
+
+
+  <!-- Custom Marquee Animation -->
+  <style>
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .animate-marquee {
+      animation: marquee 30s linear infinite;
+    }
+  </style>
+</section>
+
+
+
+
+
+<section id="Projects" class="bg-white dark:bg-gray-800 py-12 px-4">
+  <h3 class="text-4xl font-bold text-center text-blue-600 dark:text-blue-300 mb-12">Projects</h3>
+
+  <!-- Featured Projects -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+    <!-- Project 1: Personal ChatBot -->
+    <div class="relative group overflow-hidden rounded-xl border-4 border-blue-500 shadow-md bg-white dark:bg-gray-900">
+      <a href="https://github.com/Perumalla05/personal-chatbot" target="_blank">
+        <img src="assets/images/chatbot.jpg" alt="Personal ChatBot" class="w-full aspect-[16/9] object-cover group-hover:opacity-30 transition duration-300">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition duration-300">
+          <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300 mb-2">Personal ChatBot</h4>
+          <p class="text-gray-800 dark:text-gray-200 bg-white/70 dark:bg-gray-900/80 px-4 py-2 rounded">AI chatbot using TF-IDF and CNN, deployed with Streamlit.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Project 2: Trivia Game -->
+    <div class="relative group overflow-hidden rounded-xl border-4 border-blue-500 shadow-md bg-white dark:bg-gray-900">
+      <a href="https://github.com/Perumalla05/Trivia-Game" target="_blank">
+        <img src="assets/images/Triviaa.jpeg" alt="Trivia Game" class="w-full aspect-[16/9] object-cover group-hover:opacity-30 transition duration-300">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition duration-300">
+          <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300 mb-2">Trivia</h4>
+          <p class="text-gray-800 dark:text-gray-200 bg-white/70 dark:bg-gray-900/80 px-4 py-2 rounded">
+            An educational trivia app with interactive classes, games, and general knowledge reading. Built using Lumi software and class-based assessments.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- View More Button -->
+  <div class="text-center mt-8">
+    <button id="view-more-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition">
+      View More
+    </button>
+  </div>
+
+  <!-- Additional Projects -->
+  <div id="more-projects" class="hidden mt-16 border-t-4 border-blue-400 pt-12">
+    <h4 class="text-3xl font-bold text-center text-blue-600 dark:text-blue-300 mb-10">More Projects</h4>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+
+      <!-- Project 3: Music Recommendation System -->
+      <div class="relative group overflow-hidden rounded-xl border-4 border-blue-500 shadow-md bg-white dark:bg-gray-900">
+        <a href="https://github.com/Perumalla05/Music-Recommendation-System" target="_blank">
+          <img src="assets/images/music.jpeg" alt="Music Recommendation" class="w-full aspect-[16/9] object-contain group-hover:opacity-30 transition duration-300">
+          <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition duration-300">
+            <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300 mb-2">Music Recommendation System</h4>
+            <p class="text-gray-800 dark:text-gray-200 bg-white/70 dark:bg-gray-900/80 px-4 py-2 rounded">
+              An NLP-powered system that recommends songs based on thematic preferences like melody or genre, using TF-IDF and cosine similarity.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project 4: Contact Book -->
+      <div class="relative group overflow-hidden rounded-xl border-4 border-blue-500 shadow-md bg-white dark:bg-gray-900">
+        <a href="https://github.com/Perumalla05/Contact-Book" target="_blank">
+          <img src="assets/images/contact book.png" alt="Contact Book" class="w-full aspect-[16/9] object-contain group-hover:opacity-30 transition duration-300">
+          <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition duration-300">
+            <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300 mb-2">Contact Book</h4>
+            <p class="text-gray-800 dark:text-gray-200 bg-white/70 dark:bg-gray-900/80 px-4 py-2 rounded">
+              Python CLI app for managing contacts with CRUD functionality.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Project 5: Bitcoin Data Analytics -->
+      <div class="relative group overflow-hidden rounded-xl border-4 border-blue-500 shadow-md bg-white dark:bg-gray-900">
+        <a href="https://github.com/Perumalla05/BitCoin-Data-Analytics" target="_blank">
+          <img src="assets/images/Bitcoin.jpeg" alt="Bitcoin Data Analytics" class="w-full aspect-[16/9] object-contain group-hover:opacity-30 transition duration-300">
+          <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition duration-300">
+            <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300 mb-2">Bitcoin Data Analytics</h4>
+            <p class="text-gray-800 dark:text-gray-200 bg-white/70 dark:bg-gray-900/80 px-4 py-2 rounded">
+              Tableau dashboard exploring BTC pricing, trends, and insights.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- View Less Button -->
+    <div class="text-center mt-8">
+      <button id="view-less-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition">
+        View Less
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- View More / View Less Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const viewMoreBtn = document.getElementById("view-more-btn");
+    const moreProjects = document.getElementById("more-projects");
+
+    viewMoreBtn.addEventListener("click", () => {
+      moreProjects.classList.remove("hidden");
+      moreProjects.scrollIntoView({ behavior: "smooth" });
+      viewMoreBtn.disabled = true;
+      viewMoreBtn.classList.add("opacity-50", "cursor-not-allowed");
+    });
+
+    document.addEventListener("click", function (e) {
+      if (e.target && e.target.id === "view-less-btn") {
+        moreProjects.classList.add("hidden");
+        viewMoreBtn.disabled = false;
+        viewMoreBtn.classList.remove("opacity-50", "cursor-not-allowed");
+        viewMoreBtn.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+<!-- Achievements Section -->
+<section id="Achievements" class="bg-white dark:bg-gray-800 py-12 px-4">
+  <h3 class="text-4xl font-bold text-center text-blue-600 dark:text-blue-300 mb-12">Achievements</h3>
+
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+    <!-- Achievement 1 -->
+    <div class="border-l-4 border-blue-500 pl-4">
+      <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">Smart Interviews</h4>
+      <p class="text-gray-700 dark:text-gray-300">
+        Advanced through multiple rounds of coding evaluations, showcasing exceptional problem-solving and algorithmic abilities.
+      </p>
+    </div>
+
+    <!-- Achievement 2 -->
+    <div class="border-l-4 border-blue-500 pl-4">
+      <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">Discover VISA</h4>
+      <p class="text-gray-700 dark:text-gray-300">
+        Shortlisted for Visa Discover 2024; visited the Visa Bangalore office and gained valuable industry exposure.
+      </p>
+    </div>
+
+    <!-- Achievement 6 -->
+    <div class="border-l-4 border-blue-500 pl-4">
+      <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">SWECHA Internship</h4>
+      <p class="text-gray-700 dark:text-gray-300">
+        Contributed to a Telugu LLM project using Python, ML & React. Attended hands-on LLM workshop at IIIT Hyderabad (Jul–Oct 2024).
+      </p>
+    </div>
+
+    <!-- Achievement 3 -->
+    <div class="border-l-4 border-blue-500 pl-4">
+      <h4 class="text-xl font-semibold text-blue-600 dark:text-blue-300">Go 4 Guru – NASA Program</h4>
+      <p class="text-gray-700 dark:text-gray-300">
+        Gold Medalist from GO4GURU space exploration, inspired by Kalpana Chawla.
+      </p>
+    </div>
+
+    
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Contact Section -->
+<section id="Contact" class="bg-white dark:bg-gray-800 py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-4xl font-bold text-blue-600 dark:text-blue-300 mb-6">Let's Connect</h3>
+    
+
+    <!-- Contact Info -->
+    <div class="mb-12 space-y-4">
+      <p class="text-lg text-gray-800 dark:text-white"><i class="fas fa-user mr-2 text-blue-500"></i> Sanka Naga Sai Harshini</p>
+      <p class="text-lg text-gray-800 dark:text-white"><i class="fas fa-envelope mr-2 text-blue-500"></i> sankaharshini43@gmail.com</p>
+      <p class="text-lg text-gray-800 dark:text-white"><i class="fas fa-map-marker-alt mr-2 text-blue-500"></i> Bhimavaram, Andhra Pradesh, India</p>
+    </div>
+
+   <!-- Contact Section -->
+<section id="Contact" class="bg-white dark:bg-gray-800 py-12 px-4">
+  <h3 class="text-4xl font-bold text-center text-blue-600 dark:text-blue-300 mb-6">Contact Me</h3>
+  <p class="text-center text-lg text-gray-700 dark:text-gray-300 mb-10">Interested in collaborating or have any inquiries? Feel free to reach out using the form below — I’ll get back to you.</p>
+
+  <!-- Contact Form -->
+  <form action="https://formspree.io/f/xovwpnez" method="POST"
+        class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left max-w-3xl mx-auto">
+
+    <input type="text" name="name" required placeholder="Your Name"
+           class="p-3 rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500" />
+
+    <input type="email" name="email" required placeholder="Your Email"
+           class="p-3 rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500" />
+
+    <textarea name="message" required placeholder="Your Message" rows="5"
+              class="md:col-span-2 p-3 rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+    <button type="submit"
+            class="md:col-span-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition">
+      Send Message
+    </button>
+  </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="py-4 px-8 dark:bg-gray-800" style="background-color: #8b90c9;">
+    <p class="text-xl font-bold text-white text-center">&copy; 2025 Sanka Naga Sai Harshini. All rights reserved.</p>
+  </footer>
+
+  <!-- Dark Mode Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleButton = document.getElementById("theme-toggle");
+      const htmlElement = document.documentElement;
+
+      if (localStorage.getItem("theme") === "dark") {
+        htmlElement.classList.add("dark");
+      }
+
+      toggleButton.addEventListener("click", () => {
+        htmlElement.classList.toggle("dark");
+        localStorage.setItem("theme", htmlElement.classList.contains("dark") ? "dark" : "light");
+      });
+    });
+  </script>
+</body>
+
+</html>
