@@ -1,34 +1,56 @@
-# Portfolio👩‍💻
+# 🌐 Sanka Naga Sai Harshini — Portfolio
 
-Welcome to my personal portfolio! This website showcases my academic achievements, skills, projects, and provides insights into my journey as an aspiring computer science. I am currently pursuing my Bachelor of Science in computer science at BV Raju College.
+Welcome to my personal portfolio! This website highlights my technical expertise, projects, achievements, and professional journey.
 
-## Table of Contents📑
+🔗 **Live Website**: [Click to View](https://github.com/harshini43/portfolio.git)
 
-- [About Me](#about-me)
-- [Technology Stack](#technology-stack)
-- [Projects](#projects)
-- [Resume](#resume)
-- [Contact](#contact)
+---
 
-## About Me👋
+## 🧠 About Me
 
-I am Yallabandi Lakshmi Sowmya, a passionate Computer Science and Engineering student with a specialization in Artificial Intelligence and Data Science. I have a strong foundation in programming languages, data structures, and algorithms. Along with my technical skills, I possess excellent communication and teamwork abilities, which I’ve demonstrated through various academic and extracurricular activities.
+I’m **Sanka Naga Sai Harshini**, a BSc student specializing in Computer Science at BV Raju college. With a strong foundation in full-stack development, I create impactful solutions and enjoy working on real-world projects across disciplines.
 
-I am eager to learn and explore new technologies and strive to apply my knowledge to real-world problems, especially in the fields of Data Science and AI.
+---
+
+## 🚀 Tech Stack
+
+- **Languages**: Python, Java, C, SQL
+- **Web**: HTML5, CSS3, Tailwind CSS, React JS  
+- **Tools**: GitHub, VS Code
+---
+
+## 🛠️ Projects Showcase
+
+This portfolio features:
+- Online Room Booking System
+
+Explore all projects on the [Projects](https://portfolio-git-main-perumalla-naga-vidya-amruthas-projects.vercel.app/#Projects) section.
+
+---
+
+## 🏅 Achievements
+
+- **FIXATHON** Selected for 2 rounds among 500+ participants.
+- **IIIT Sricity Hackathon** Participated in a hackathon where our team’s innovative idea was selected among competing
+  teams.
+- **Co-Charm** Co-Charm at Student Success Center Interacted with juniors and peers, conducted activities, and motivated
+students to achieve academic and personal growth
+---
 
 
-## Resume📄
 
-You can download my most recent resume from the following link:
+## 📬 Contact
 
-- [Download Resume](https://drive.google.com/uc?export=download&id=1J5TtaGUtHkXNP3f4YYbf4ChaMvprQPDo)
+- **Email**: sankaharshini43@gmail.com  
+- **LinkedIn**: [linkedin.com/in](www.linkedin.com/in/sanka-harshini-8abaa4344)
+- **GitHub**: [github.com/harshini43](https://github.com/harshini43/portfolio.git) 
 
-## Contact📬
+---
 
-Feel free to reach out to me for any collaborations, opportunities, or just to connect:
+## 📦 Deployment
 
-- **Email**: yallabandi07@gmail.com
-- **LinkedIn**: [linkedin.com/in/yallabandi-lakshmi-sowmya](https://www.linkedin.com/in/yallabandi-lakshmi-sowmya/)
-- **GitHub**: [github.com/yallabandi07](https://github.com/yallabandi07)
+This portfolio is:
+- Developed with **HTML5, Tailwind CSS, JavaScript**
+- Deployed using **Vercel**
 
-Thank you for visiting my portfolio. I look forward to connecting with you!
+---
