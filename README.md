@@ -41,7 +41,7 @@ students to achieve academic and personal growth
 
 ## 📬 Contact
 
-- **Email**: sankaharshini43@gmail.com  
+- **gmail**: sankaharshini43@gmail.com  
 - **LinkedIn**: [linkedin.com/in](www.linkedin.com/in/sanka-harshini-8abaa4344)
 - **GitHub**: [github.com/harshini43](https://github.com/harshini43/portfolio.git) 
 
