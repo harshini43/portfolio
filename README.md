@@ -22,9 +22,9 @@ I’m **Sanka Naga Sai Harshini**, a BSc student specializing in Computer Scienc
 ## 🛠️ Projects Showcase
 
 This portfolio features:
-- Online Room Booking System
+- portfolio
 
-Explore all projects on the [Projects](https://portfolio-git-main-perumalla-naga-vidya-amruthas-projects.vercel.app/#Projects) section.
+Explore all projects on the [Projects](https://github.com/harshini43/portfolio.git) section.
 
 ---
 
